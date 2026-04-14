@@ -36,6 +36,28 @@ namespace TrainingCenterApi.Data
                 StartTime = new TimeOnly(9, 0),
                 EndTime = new TimeOnly(11, 0),
                 Status = "planned"
+            },
+            new Reservation
+            {
+                Id = 3,
+                RoomId = 3,
+                OrganizerName = "Maria Nowak",
+                Topic = "LINQ Workshop",
+                Date = new DateOnly(2026, 5, 12),
+                StartTime = new TimeOnly(8, 30),
+                EndTime = new TimeOnly(10, 0),
+                Status = "confirmed"
+            },
+            new Reservation
+            {
+                Id = 4,
+                RoomId = 5,
+                OrganizerName = "Carlos Ortega",
+                Topic = "ASP.NET Core Practice",
+                Date = new DateOnly(2026, 5, 13),
+                StartTime = new TimeOnly(13, 0),
+                EndTime = new TimeOnly(15, 0),
+                Status = "planned"
             }
         };
     }
